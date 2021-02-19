@@ -10,7 +10,7 @@ const consul = new Consul({
 });
 
 consul.agent.service.register({
-    name: serviceName,
+    name: '微服务1',
     address: '127.0.0.1',
     port: 45678,
     check: {
