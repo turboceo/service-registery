@@ -9,8 +9,9 @@ const consul = new Consul({
     promisify: true,
 });
 
+let serviceName = '微服务1'
 consul.agent.service.register({
-    name: '微服务1',
+    name: serviceName,
     address: '127.0.0.1',
     port: 45678,
     check: {
