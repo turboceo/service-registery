@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/turboceo/service-registery/issues"
   },
-  "homepage": "https://github.com/turboceo/service-registery#readme"
+  "homepage": "https://github.com/turboceo/service-registery#readme",
+  "devDependencies": {
+    "consul": "^0.40.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
